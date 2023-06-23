@@ -43,6 +43,7 @@ public class Leaf {
 		File src= ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		File dest=new File("sample.png");
 		FileUtils.copyFile(src, dest);
+		//
 	} 
 
 }
